@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="js/functions.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <p>Calculator created by Helton Junior</p>
+    <div class=" calculator">
+        <input type="text" id="display">
+        <table class="selection">
+            <tr>
+                <td><Input type="button" onclick="clean()" value="C"></td>
+                <td><Input type="button" onclick="del()"  value="Del"></td>
+                <td><Input type="button" onclick="sel('/')" value="/"></td>    
+                <td><Input type="button" onclick="sel('X')" value="X"></td>
+            </tr>
+            <tr>
+                <td><Input type="button" onclick="sel('1')" value="1"></td>
+                <td><Input type="button" onclick="sel('2')" value="2"></td>
+                <td><Input type="button" onclick="sel('3')" value="3"></td>    
+                <td><Input type="button" onclick="sel('+')" value="+"></td>
+            </tr>
+            <tr>
+                <td><Input type="button" onclick="sel('4')" value="4"></td>
+                <td><Input type="button" onclick="sel('5')" value="5"></td>
+                <td><Input type="button" onclick="sel('6')" value="6"></td>    
+                <td><Input type="button" onclick="sel('-')" value="-"></td>
+            </tr>
+            <tr>
+                <td><Input type="button" onclick="sel('7')" value="7"></td>
+                <td><Input type="button" onclick="sel('8')" value="8"></td>
+                <td><Input type="button" onclick="sel('9')" value="9"></td>    
+            </tr>
+            <tr>
+                <td><Input type="button" onclick="sel('%')" value="%"></td>
+                <td><Input type="button" onclick="sel('0')" value="0"></td>
+                <td><Input type="button" onclick="sel('.')" value="."></td>
+            </tr>
+          
+
+        </table> <!--Selection-->
+
+            <div class="btn-result"><td><Input type="button" onclick="calculate()" value="="></td></div><!--btn-result-->
+
+
+    </div><!--Calculator-->
+    
+    
+    
+</body>
+</html>

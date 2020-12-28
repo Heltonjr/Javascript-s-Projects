@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset='utf-8'>
+            <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+            <title>Calculator</title>
+            <meta name='viewport' content='width=device-width, initial-scale=1'>
+            <link rel='stylesheet' href='style.css' type='text/css' >
+            <script src='js/functions.js'></script>
+        </head>
+        <body>
+            <div class="calculator">
+
+               <input id="display" onclick="" type="placeholder" />
+             
+               <table>
+                <tr>
+                    <td><input id="clear" type="button" value=" C " onclick="dlt()">  </td>
+                    <td><input id="division" type="button" value=" / " onclick="selection('/')"></td>
+                    <td><input id="multiply" type="button" value=" X " onclick="selection('X')"></td>
+                    <td><input id="delete" type="button" value=" Del " onclick="dlt()"></td>
+                </tr>
+                <tr>
+                    <td><input id="number" type="button" value="1" onclick="selection('1')"></td>
+                    <td><input id="number" type="button" value=" 2 " onclick="selection('2')"></td>
+                    <td><input id="number" type="button" value=" 3 " onclick="selection('3')"></td>
+                    <td><input id="subtraction" type="button" value=" - " onclick="selection('-')"></td>
+                </tr>
+                <tr>
+                    <td><input id="4" type="button" value=" 4 " onclick="selection('4')"></td>
+                    <td><input id="5" type="button" value=" 5 " onclick="selection('5')"></td>
+                    <td><input id="6" type="button" value=" 6 " onclick="selection('6')"></td>
+                    <td><input id="sum" type="button" value=" + " onclick="selection('+')"></td>
+                </tr>                  
+                <tr>
+                    <td><input id="7" type="button" value=" 7 " onclick="selection('7')"></td>
+                    <td><input id="8" type="button" value=" 8 " onclick="selection('8')"></td>
+                    <td><input id="9" type="button" value=" 9 " onclick="selection('9')"></td>
+                </tr>
+                <tr>
+                    <td><input id="percentage" type="button" value=" % " onclick="selection('%')"></td>
+                    <td><input id="0" type="button" value=" 0 " onclick="selection('0')"></td>
+                    <td><input id="dot" type="button" value=" . " onclick="selection('.')"></td>
+                </tr>
+                </table>
+
+                <div class="btn-result"><input type="button" value="=" onclick="solve()"></div>
+        
+            </div><!--Calculator-->
+
+
+
+    
+    </body>
+</html>
