@@ -1,5 +1,58 @@
+/*---- The calculator structure --- */
+.calculator{
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 300px;
+    padding: 50px 0;
+    background-color: black;
+    border-radius: 15px;
+    }
+/*-----------------------------------*/
+
+/*---- Where the result is showed --- */
 #display{
-    width: 100px;
-    height: 100px;
+    width: 248px;
+    height: 50px;
     color: black;
+    border: 1px solid black;
+    border-radius:10px;
+    font-size: 30px;
+    text-align: right;
+    }
+ 
+/*-----------------------------------*/
+
+/*---- The Calculator "body" --- */
+
+table{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    }
+
+
+input[type="button"]{ 
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+
+.btn-result{
+    float: right;
+    position: relative;
+    bottom: 126px;
+    right: 24px;
+    height: 123px;
+    }
+
+.btn-result input[type="button"]{
+    height: 123px;
 }
+
+input[type="button"]:active{ 
+    background-color:aqua;
+}
+  
+/*-----------------------------------*/
