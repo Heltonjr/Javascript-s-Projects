@@ -5,6 +5,7 @@ function selection(val){
     let number = document.getElementById("display").value+=val
 
 }
+/////////////////////////////////////////////////////////////////////
 
 // Function used to make the math, which we use (eval) to do that//
 function solve() 
@@ -15,9 +16,21 @@ function solve()
          } 
 
 
-// Function used to delete the numbers//
+// Function used to delete all the numbers//
 function dlt(){
 
     let del = document.getElementById("display").value = ""
 }
 
+/////////////////////////////////////////////////////////////////////
+
+
+/// FUNCTION TO CLEAN THE LAST SELECTION /////////
+function clean(){
+    
+    let clear = document.getElementById("display").value
+    document.getElementById("display").value=clear.substring(0, clear.length-1)
+     
+}
+
+/////////////////////////////////////////////////////////////////////
